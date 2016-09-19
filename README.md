@@ -9,6 +9,9 @@ This Visual Studio extension provides image preview tooltips for path texts quot
 * Works in several windows categorized as `ContentType("Code")`.
 * On/Off by "Toggle ImagePreviewToolTip" in Tools menu.
 
+## Download
+[ImagePreviewToolTip.vsix](https://github.com/lpubsppop01/ImagePreviewToolTip/raw/master/ImagePreviewToolTip.vsix)
+
 ## Requirements
 Visual Studio 2013 or later.
 
