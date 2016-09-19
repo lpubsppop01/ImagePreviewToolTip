@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!--This is the file that defines the IDs for all the commands exposed by VisualStudio. -->
+  <Extern href="stdidcmd.h" />
+
+  <!--This header contains the command ids for the menus provided by the shell. -->
+  <Extern href="vsshlids.h" />
+
+  <!--Definition of some VSCT specific constants. In this sample we use it for the IDs inside the guidOfficeIcon group. -->
+  <!--<Extern href="msobtnid.h" xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" />-->
+
+  <Commands package="guidImagePreviewToolTipPkg">
+    <Groups>
+      <Group guid="guidImagePreviewToolTipCmdSet" id="ImagePreviewToolTipGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS" />
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="guidImagePreviewToolTipCmdSet" id="cmdidToggleImagePreviewToolTip" priority="0x0100" type="Button">
+        <Parent guid="guidImagePreviewToolTipCmdSet" id="ImagePreviewToolTipGroup" />
+        <Strings>
+          <CommandName>cmdidToggleImagePreviewToolTip</CommandName>
+          <ButtonText>Toggle ImagePreviewToolTip</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidImagePreviewToolTipPkg" value="{70c3ea06-afed-4136-8aae-d10c1270d1a7}" />
+    <GuidSymbol name="guidImagePreviewToolTipCmdSet" value="{de2bfe6f-8a1c-45fb-85ee-23dc1e83884a}">
+      <IDSymbol name="ImagePreviewToolTipGroup" value="0x1020" />
+      <IDSymbol name="cmdidToggleImagePreviewToolTip" value="0x0100" />
+    </GuidSymbol>
+  </Symbols>
+
+</CommandTable>
