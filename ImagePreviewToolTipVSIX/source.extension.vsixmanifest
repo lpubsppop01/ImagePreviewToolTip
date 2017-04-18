@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="70c3ea06-afed-4136-8aae-d10c1270d1a7" Version="1.0" Language="en-US" Publisher="lpubsppop01" />
+    <Identity Id="70c3ea06-afed-4136-8aae-d10c1270d1a7" Version="0.1.1" Language="en-US" Publisher="lpubsppop01" />
     <DisplayName>Image Preview ToolTip</DisplayName>
     <Description xml:space="preserve">Provides image preview tooltips for path texts quoted by `"` or `'`.</Description>
     <License>LICENSE.txt</License>
