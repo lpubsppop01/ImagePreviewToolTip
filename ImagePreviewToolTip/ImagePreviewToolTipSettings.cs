@@ -7,7 +7,7 @@ using Microsoft.VisualStudio.Settings;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Settings;
 
-namespace lpubsppop01.ImagePreviewToolTip
+namespace lpubsppop01.ImagePreviewToolTipVSIX
 {
     // ref. https://github.com/omsharp/BetterComments/blob/master/BetterComments/Options/FontSettingsManager.cs
 

@@ -9,7 +9,7 @@ using Microsoft.VisualStudio.Text;
 using Microsoft.VisualStudio.Text.Editor;
 using Microsoft.VisualStudio.Text.Operations;
 
-namespace lpubsppop01.ImagePreviewToolTip
+namespace lpubsppop01.ImagePreviewToolTipVSIX
 {
     class StringSpan
     {

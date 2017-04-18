@@ -2,7 +2,7 @@
 // MUST match PkgCmdID.h
 using System;
 
-namespace lpubsppop01.ImagePreviewToolTip
+namespace lpubsppop01.ImagePreviewToolTipVSIX
 {
     static class PkgCmdIDList
     {

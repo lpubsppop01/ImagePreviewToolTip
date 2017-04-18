@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace lpubsppop01.ImagePreviewToolTip
+namespace lpubsppop01.ImagePreviewToolTipVSIX
 {
     class ImageLoader
     {

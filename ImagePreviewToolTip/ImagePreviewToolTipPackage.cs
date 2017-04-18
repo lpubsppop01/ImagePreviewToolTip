@@ -13,7 +13,7 @@ using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.VisualStudio.Shell.Settings;
 using Microsoft.Win32;
 
-namespace lpubsppop01.ImagePreviewToolTip
+namespace lpubsppop01.ImagePreviewToolTipVSIX
 {
     [PackageRegistration(UseManagedResourcesOnly = true)]
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)]
@@ -34,7 +34,7 @@ namespace lpubsppop01.ImagePreviewToolTip
                 {
                     ImagePreviewToolTipSettings.Current.IsEnabled = !ImagePreviewToolTipSettings.Current.IsEnabled;
                     ImagePreviewToolTipSettings.SaveCurrent();
-                    MessageBox.Show(string.Format("ImagePreviewToolTip is {0}.", (ImagePreviewToolTipSettings.Current.IsEnabled ? "enabled" : "disabled")));
+                    MessageBox.Show(string.Format("Image Preview ToolTip is {0}.", (ImagePreviewToolTipSettings.Current.IsEnabled ? "enabled" : "disabled")));
                 }, menuCommandID);
                 mcs.AddCommand(menuItem);
             }

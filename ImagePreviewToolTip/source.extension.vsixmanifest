@@ -2,8 +2,8 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Id="70c3ea06-afed-4136-8aae-d10c1270d1a7" Version="1.0" Language="en-US" Publisher="lpubsppop01" />
-    <DisplayName>ImagePreviewToolTip</DisplayName>
-    <Description xml:space="preserve">Provides image preview tooltips for path texts quoted by `"` or `'`</Description>
+    <DisplayName>Image Preview ToolTip</DisplayName>
+    <Description xml:space="preserve">Provides image preview tooltips for path texts quoted by `"` or `'`.</Description>
   </Metadata>
   <Installation InstalledByMsi="false">
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0,]" />

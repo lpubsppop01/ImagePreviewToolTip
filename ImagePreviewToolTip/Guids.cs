@@ -2,7 +2,7 @@
 // MUST match guids.h
 using System;
 
-namespace lpubsppop01.ImagePreviewToolTip
+namespace lpubsppop01.ImagePreviewToolTipVSIX
 {
     static class GuidList
     {

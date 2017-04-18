@@ -22,7 +22,7 @@
         <Parent guid="guidImagePreviewToolTipCmdSet" id="ImagePreviewToolTipGroup" />
         <Strings>
           <CommandName>cmdidToggleImagePreviewToolTip</CommandName>
-          <ButtonText>Toggle ImagePreviewToolTip</ButtonText>
+          <ButtonText>Toggle Image Preview ToolTip</ButtonText>
         </Strings>
       </Button>
     </Buttons>
