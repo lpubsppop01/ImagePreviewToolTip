@@ -34,7 +34,7 @@ namespace lpubsppop01.ImagePreviewToolTipVSIX
                 {
                     ImagePreviewToolTipSettings.Current.IsEnabled = !ImagePreviewToolTipSettings.Current.IsEnabled;
                     ImagePreviewToolTipSettings.SaveCurrent();
-                    MessageBox.Show(string.Format("Image Preview ToolTip is {0}.", (ImagePreviewToolTipSettings.Current.IsEnabled ? "enabled" : "disabled")));
+                    MessageBox.Show(string.Format("ImagePreviewToolTip is {0}.", (ImagePreviewToolTipSettings.Current.IsEnabled ? "enabled" : "disabled")));
                 }, menuCommandID);
                 mcs.AddCommand(menuItem);
             }

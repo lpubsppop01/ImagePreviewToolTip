@@ -1,4 +1,4 @@
-# Image Preview ToolTip Visual Studio Extension
+# ImagePreviewToolTip Visual Studio Extension
 This Visual Studio Extension provides image preview tooltips for path texts quoted by `"` or `'`.
 
 ## Features
@@ -7,7 +7,7 @@ This Visual Studio Extension provides image preview tooltips for path texts quot
     + Data URI scheme, e.g. "data:image/png;base64,baz".
     + Other formats supported by `System.Windows.Media.Imaging.BitmapFrame.Create(Uri)` method.
 * Works in several windows categorized as `ContentType("Code")`.
-* On/Off by "Toggle Image Preview ToolTip" in Tools menu.
+* On/Off by "Toggle ImagePreviewToolTip" in Tools menu.
 
 ## Download
 [ImagePreviewToolTipVSIX.vsix](https://github.com/lpubsppop01/ImagePreviewToolTipVSIX/raw/master/ImagePreviewToolTipVSIX.vsix)
